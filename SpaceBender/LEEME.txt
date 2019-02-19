@@ -1,0 +1,45 @@
+PRACTICA 1 DE INTELIGENCIA ARTIFICIAL
+	REALIZADA POR:
+
+JESÚS ÁNGEL PÉREZ-ROCA FERNÁNDEZ (infjpf02)
+JOSÉ ANTONIO PEREIRA SUÁREZ (infjps00)
+
+INSTRUCCIONES
+=============
+
+Esta práctica está realizada en Java por lo que para su ejecución se necesita tener
+instalada una máquina virtual para Java.
+Para compilar la práctica se debe ejecutar la siguiente orden: javac *.java
+Para ejecutar la práctica, después de haberla compilado, se debe poner: java Principal
+Una vez ejecutada, aparecerá una ventana de configuración en la que se pueden seleccionar
+los distintos tipos de algoritmos, heurísticas y variantes, así como el tamaño del planeta,
+el número de obstáculos, la recarga de energía, si se permiten giros de 45º y si se quiere
+dejar al programa escoger las posiciones o si se quieren leer de un fichero.
+En caso de escoger la opción de leer de un fichero, aparecerá otra ventana en la que se
+podrá seleccionar dicho fichero.El fichero debe tener una estructura similar a la de los
+ficheros que se proporcionan de ejemplo (Planeta10x10.txt y Planeta20x20.txt).
+Una vez hecho todo esto aparecerá la ventana de ejecución, en la que hay en la parte
+izquierda un panel representando el planeta y en la parte derecha hay una serie de campos
+de texto en los que se muestran los distintos valores de avances, giros, energía recargada,
+energía consumida por el robot, así como las posiciones inicial y final.
+También hay un área de texto en la que se mostrará la solución del problema y la traza de
+ejecución (en el caso de que esté marcada la opción de "Ver trazas" en el momento de 
+calcular la solución). Todo lo que se muestra en este área de texto se muestra también
+por consola.
+En la parte inferior derecha hay tres botones de navegación. Estos botones, al ser pulsados
+calculan la solución (si ésta no ha sido calculada aún) y luego o bien muestran el nodo
+inicial o el nodo final o el nodo siguiente al que se muestra actualmente.
+Usando estos botones se puede ver avanzar al robot (en la parte izquierda), así como se
+pueden ver cómo evolucionan los valores de avances, giros y energía (tanto recargada como
+consumida) a través de los campos de texto de la parte derecha.
+También hay un botón "Configuración", que lleva a la pantalla de configuración, para poder
+escoger otros parámetros y resolver otro problema.
+Para salir del programa basta con darle al botón de cerrar de la ventana como si fuera
+cualquier otra aplicación.
+
+Para facilitar la compilación y ejecución de la práctica en entornos Unix, se incluye un
+fichero Makefile. Su uso es el siguiente:
+- Si se pone make clean, borra los ficheros *.class.
+- Si se pone make compile, compila la práctica.
+- Si se pone make execute, ejecuta la práctica.
+- Si se pone make all o simplemente make, hace las tres cosas anteriores por ese orden.

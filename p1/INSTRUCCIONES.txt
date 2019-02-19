@@ -1,0 +1,22 @@
+Instrucciones de compilacion y ejecucion
+========================================
+
+El codigo de la practica esta escrito en JAVA, utilizando 
+el JDK 1.3.1, aunque tambien es compatible con las versiones
+J2SK 1.4 de JAVA. El interfaz esta pensado para ejecutarlo, como
+minimo con una resolucion de 1024x768.
+
+---------------------------------------
+Para compilar la practica, ejecutar:
+
+javac *.java
+
+Para ejecutar el interfaz, ejecutar:
+
+java Programa
+---------------------------------------
+
+Otra opcion para compilar y ejecutar la practica de un
+solo paso es ejecutar el script:
+
+./practica
